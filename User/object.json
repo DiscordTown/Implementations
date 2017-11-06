@@ -1,0 +1,40 @@
+{
+    "id": ":uid",
+    "version": "1.0",
+    "user": {
+        "name": ":uname",
+        "id": ":uid",
+        "tag": ":utag",
+        "avatar": ":uavatar",
+        "created": ":date"
+    },
+    "games": {
+        "overall": {
+            "total": 0,
+            "lost": 0,
+            "won": 0
+        },
+        "team": {
+            ":team": {
+                "total": 0,
+                "lost": 0,
+                "won": 0
+            }
+        },
+        "role": {
+            ":rid": {
+                "total": 0,
+                "lost": 0,
+                "won": 0
+            }
+        }
+    },
+    "inv": {
+        ":itemid": ":amount"
+    },
+    "avatar": ":sprite hash or id mapped string",
+    "money": {
+        "gold": 0,
+        "silver": 0
+    }
+}

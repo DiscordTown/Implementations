@@ -1,0 +1,31 @@
+{
+    "_Data": {
+        "alive": [
+            ":id"
+        ],
+        "phase": 0,
+        "targets": {
+            ":id": ":id"
+        },
+        "votes": {
+            ":id": ":id"
+        }
+    },
+    "_Meta": {
+        "name": ":channame",
+        "id": ":chanid",
+        "host": ":hostid",
+        "mode": ":mode",
+        "open": false,
+        "maxPlayers": 15
+    },
+    "_Players": {
+        ":uid": {
+            "avatar": ":uavatar",
+            "id": ":uid",
+            "tag": ":utag",
+            "name": ":rpname",
+            "role": ":urole"
+        }
+    }
+}

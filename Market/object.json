@@ -1,0 +1,10 @@
+{
+    "id": "base36 number *based on last trade id*",
+    "vendor": ":vid *discord vendor/user id*",
+    "item": ":itemid",
+    "amount": 0 /* Total being sold */,
+    "claimed": 0 /* Total claimed */,
+    "created": 0 /* Date object */
+}
+
+// TODO:
