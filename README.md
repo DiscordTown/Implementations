@@ -1,4 +1,4 @@
-# Suggestions
+# Implementations
 Ideas for Discord Town
 
 **Have an idea that we could implement?**  
