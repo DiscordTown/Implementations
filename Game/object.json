@@ -1,5 +1,5 @@
 {
-    "_Data": {
+    "data": {
         "alive": [
             ":id"
         ],
@@ -11,7 +11,7 @@
             ":id": ":id"
         }
     },
-    "_Meta": {
+    "meta": {
         "name": ":channame",
         "id": ":chanid",
         "host": ":hostid",
@@ -19,7 +19,7 @@
         "open": false,
         "maxPlayers": 15
     },
-    "_Players": {
+    "mlayers": {
         ":uid": {
             "avatar": ":uavatar",
             "id": ":uid",
