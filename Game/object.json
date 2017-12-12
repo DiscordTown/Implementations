@@ -1,31 +1,29 @@
 {
     "data": {
-        "alive": [
-            ":id"
-        ],
-        "phase": 0,
-        "targets": {
-            ":id": ":id"
-        },
-        "votes": {
-            ":id": ":id"
-        }
+        "day": 1, // The current day
+        "phase": 0, // The current phase
+        "started": false // The state of the lobby (waiting or playing)
     },
     "meta": {
-        "name": ":channame",
-        "id": ":chanid",
-        "host": ":hostid",
-        "mode": ":mode",
-        "open": false,
-        "maxPlayers": 15
+        "name": "", // Name of the game (replacing 'dtown_' if it exists)
+        "chan": "", // The channel that the lobby is taking place in
+        "guild": "", // The guild that the lobby is taking place in
+        "host": "", // The host of the lobby
+        "mode": "", // The lobby's game mode
+        "open": false, // If users can join the game without an invite from the host
+        "maxPlayers": 15 // Maximum allowed players (absalute max is unknown as of now)
     },
-    "mlayers": {
-        ":uid": {
-            "avatar": ":uavatar",
-            "id": ":uid",
-            "tag": ":utag",
-            "name": ":rpname",
-            "role": ":urole"
+    "players": [
+        // Using an array allows for positions to be changed by the transporter
+        {
+            "alive": true, // If the user is dead, they will be revoked of sending messages to the game channel
+            "id": "", // The id of the user
+            "name": "", // The rp name of the user
+            "target": "" // The user's target / vote (depending on the phase)
+            "role": "" // The user's role
         }
+    ],
+    "settings": {
+        // considering...
     }
 }
