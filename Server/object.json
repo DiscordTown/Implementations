@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "settings": {
+    "logChan": null, // Where logs are posted after a game has finished
+    "gameChan": null, // Where new games are posted
+    "maxGames": 5, // Maximum games at any one time
+    "gamesEnabled": false // If games can be created
+    "blacklist": [
+      // Blacklisted user ids won't be allowed to use the bot in said server
+    ],
+  },
+  "ignored": false // If ignored by bot staff, whole server is revoked from using the bot
+}
